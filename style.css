@@ -26,8 +26,14 @@ h1 {
     gap: 40px;
 }
 
-.images .imgheader {
+.images .imgheader1 {
     width: 30%;
+    filter: drop-shadow(5px 2px 2px #00000086);
+}
+
+.images .imgheader2 {
+    width: 30%;
+    filter: drop-shadow(5px 2px 2px #00000086);
 }
 
 .img_box img {
