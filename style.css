@@ -19,21 +19,22 @@ h1 {
     text-shadow: 2px 2px 4px rgba(44, 44, 44, 0.678);
 }
 
-.images {
+.logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 20px 30px;
 }
 
-.images .imgheader1 {
-    max-width: 100%;
+.logo img {
+    max-width: 30%;
     filter: drop-shadow(5px 2px 2px #00000086);
 }
 
-.images .imgheader2 {
-    max-width: 100%;
+.logo img {
+    max-width: 30%;
     filter: drop-shadow(5px 2px 2px #00000086);
 }
 
@@ -57,7 +58,7 @@ h1 {
 }
 
 .splide__pagination__page {
-    bottom: -2rem;
+    bottom: -3rem;
     color: #f6f01e;
 }
 
@@ -71,15 +72,4 @@ h1 {
         padding: 0 4rem;
     }
 
-    .images {
-        gap: 30px;
-    }
-
-    .images img {
-        width: 30px;
-    }
-    
-    .images img {
-        width: 30px;
-    }
 }
