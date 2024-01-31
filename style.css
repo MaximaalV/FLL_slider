@@ -5,6 +5,7 @@ body {
     place-items: center;
     height: 100vh;
     background-color: #2d3436;
+
 }
 
 h1 {
@@ -23,16 +24,16 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .images .imgheader1 {
-    width: 30%;
+    max-width: 100%;
     filter: drop-shadow(5px 2px 2px #00000086);
 }
 
 .images .imgheader2 {
-    width: 30%;
+    max-width: 100%;
     filter: drop-shadow(5px 2px 2px #00000086);
 }
 
@@ -68,5 +69,17 @@ h1 {
 @media screen and (min-width: 640px) {
     .slider_wrapper .splide {
         padding: 0 4rem;
+    }
+
+    .images {
+        gap: 30px;
+    }
+
+    .images img {
+        width: 30px;
+    }
+    
+    .images img {
+        width: 30px;
     }
 }
