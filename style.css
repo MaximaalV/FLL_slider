@@ -19,11 +19,15 @@ h1 {
 }
 
 .images {
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
-.images img {
-    margin: 0 20px;
+.images .imgheader {
+    width: 30%;
 }
 
 .img_box img {
