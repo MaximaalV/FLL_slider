@@ -18,8 +18,7 @@ h1 {
     margin-bottom: -10rem;
     text-shadow: 2px 2px 4px rgba(44, 44, 44, 0.678);
 }
-
-/*
+ /*
 .logo {
     display: flex;
     flex-direction: row;
@@ -28,6 +27,7 @@ h1 {
     gap: 30px;
     margin: 20px 30px;
 }
+
 
 .logo img {
     max-width: 30%;
@@ -40,7 +40,7 @@ h1 {
 }
 */
 
-.img_box img {
+img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;   
